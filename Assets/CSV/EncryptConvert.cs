@@ -142,8 +142,6 @@ public class FileEncryptConvertHelper
                 }
             }
         }
-
-
         // Return the encrypted bytes from the memory stream.
         return encrypted;
 
