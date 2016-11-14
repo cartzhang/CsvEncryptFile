@@ -26,6 +26,7 @@ Csv Encrpt Decrypt
 添加了Unity编辑器下右键，直接将CVS文件转换成二进制文件的快捷方式。
 
 使用Convert.ToBase64String和Convert.FromBase64String()来处理为字节字符串。
+里面代码由GT同事编写。
 
 
 
