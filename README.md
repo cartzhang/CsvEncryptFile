@@ -7,19 +7,25 @@ Csv Encrpt Decrypt
 
 ---
 
-2019-11-12
+2016-11-02
 
 最初版本：
   固定密码可以使用。
   
   
-2016-11-13
+2016-11-03
 
  在修改密码在base64时候，由于长度或字符问题，造成的解码失败。
 
 修改了原来的加密算法RijndaelManaged，改为它基类的加密SymmetricAlgorithm。
 
  现在可以设置任意密码加密。
+
+2016-11-14
+
+添加了Unity编辑器下右键，直接将CVS文件转换成二进制文件的快捷方式。
+
+使用Convert.ToBase64String和Convert.FromBase64String()来处理为字节字符串。
 
 
 
